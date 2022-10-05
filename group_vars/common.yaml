@@ -1,0 +1,2 @@
+yum_repo: https://download.docker.com/linux/centos/docker-ce.repo
+network_plugin_url: https://docs.projectcalico.org/manifests/calico.yaml
