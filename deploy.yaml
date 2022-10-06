@@ -62,9 +62,9 @@
     - name: Install kubeadm packages
       yum:
         name:
-          - kubelet 
-          - kubeadm 
-          - kubectl
+          - kubelet-{{ kubernetes_version }}
+          - kubeadm-{{ kubernetes_version }} 
+          - kubectl-{{ kubernetes_version }}
         disable_excludes: kubernetes
         
     - name: Enable kubelet
