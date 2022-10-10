@@ -10,4 +10,4 @@ To use this playbook you must have at least 2 OL8 hosts provisioned.
 
 ### Usage
 
-Change the <a href='https://github.com/ambrisolla/ansible-deploy-k8s-cluster/tree/main/inventory'>inventory/inventory.ini</a> file and be happy!
+Change the <a href='https://github.com/ambrisolla/ansible-deploy-k8s-cluster/blob/main/inventory/inventory.ini'>inventory/inventory.ini</a> file and be happy!
